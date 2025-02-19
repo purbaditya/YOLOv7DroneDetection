@@ -1,0 +1,29 @@
+TRAIN YOUR OWN DATASET
+-----------------------------------
+1.  In the yolo master folder, go to the datasets folder.
+
+2.  Create your own folder for example 'InfratecDronedetect'.
+
+3.  In 'Infratecdronedetect' create 'images' and 'labels' folder.
+
+4.  In 'images' and 'labels' folders create 'train', 'valid', and 'test' folders respectively.
+
+5.  Pretrained weights (for example yolov5s6.pt) can be downloaded from original source if required.
+
+10.  In the 'models' folder open a configuration file (.yaml), for example yolov5s.yaml, and change the number of classes parameter 'nc' to 1 or as many classes as required.
+
+11. In the 'data' folder create a configuration file (.yaml), for example infratecdronedetect.yaml, copy the content of 'dronedetect.yaml' and change the main path, train, test, and valid paths according to your dataset name ('Infratecdronedetect','images/train','images/valid','images/test'). Change the parameter 'nc' to 1 or as many classes as required.
+
+12. In the 'data/hyps' folder open a hyperparameter configuration file (.yaml), for example hyp.scratch-low.yaml, to look at the hyperparameters and change any of them if required.
+
+13. Open 'train_aux.py' and set default values of parameters
+
+14. Check the other hyperparameters (optional).
+
+15. Run 'train_aux.py (for resolution more than 640x640)'. Select option 3 (type 3) in the terminal when prompted.
+
+16. After training is done, rename the folder /runs/train/exp# folder to a name apppropriate to the training experiment (for example with batch size 16 or 8, with adam or SGD optimization, etc.). Any useless experiment folder exp# should be deleted.
+
+17. After training use the final model (best.pt or last.pt) in detect.py, test.py, detect_tracker_streaming.py.
+
+18. Check the parsed input arguments and the comments in the above files.

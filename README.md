@@ -21,3 +21,5 @@ https://mega.nz/folder/muxnXIYA#sjh5rwqi4Oz3tUfqTR7Ljw
 # Citation
 
 P. Bhattacharya, P. Nowak, "Drone Detection and Tracking with YOLO and a Rule-based Method", arXiv, 2025, arXiv:2502.05292
+
+https://arxiv.org/abs/2502.05292

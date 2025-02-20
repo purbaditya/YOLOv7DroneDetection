@@ -4,9 +4,13 @@ A drone detection system based on YOLOv7.
 # Requirements
 
 Docker / Docker Desktop
+
 WSL (on Windows) with a distribution (Debian)
+
 Python
+
 Gstreamer
+
 OpenCV with Gstreamer
 
 # Dataset

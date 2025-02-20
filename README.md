@@ -5,16 +5,16 @@ A drone detection system based on YOLOv7.
 
 Docker / Docker Desktop
 
-WSL (on Windows) with a distribution (Debian)
-
 Python
+
+WSL (on Windows) with a distribution (Debian)
 
 Gstreamer
 
 OpenCV with Gstreamer
 
 # Dataset
-The data and weights can be found here
+The data, weights, and videos can be found here
 
 https://mega.nz/folder/muxnXIYA#sjh5rwqi4Oz3tUfqTR7Ljw
 

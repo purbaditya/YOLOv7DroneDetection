@@ -1,5 +1,5 @@
 # Description
-A drone detection system based on YOLOv7.
+A drone detection system based on YOLOv7 (https://github.com/WongKinYiu/yolov7).
 
 # Requirements
 

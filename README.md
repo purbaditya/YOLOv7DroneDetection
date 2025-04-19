@@ -22,6 +22,8 @@ https://mega.nz/folder/muxnXIYA#sjh5rwqi4Oz3tUfqTR7Ljw
 
 https://huggingface.co/spaces/Gogol1987/DroneDetect
 
+https://github.com/user-attachments/assets/eeb9a49c-2c6c-4fa1-9017-f5a69903e1fe
+
 # Citation
 
 P. Bhattacharya, P. Nowak, "Drone Detection and Tracking with YOLO and a Rule-based Method", arXiv, 2025, arXiv:2502.05292
